@@ -1,1 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan",sans-serif;
+}
+#header{
+    display: flex;
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.06);
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06) ;
+}
+.logo{
+    margin: 0;
+    height: 80px;
+    width:80px;
+}
+#navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navbar li{
+    list-style: none;
+    padding:0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+}
+#navbar li a:hover{
+    color:#088178;
+}
+#navbar li a:hover::after{
+    content:"";
+    width:30%;
+    height:2px;
+    background-color:#088178;
+    position: absolute;
+    bottom: -4px;
+    left:20px;
+}
+
+/*Hero area design */
+#hero {
+    display:flex;
+    
+    background-color: rgba(0,0,0,0.06);
+    height: 99vh;
+    width:100%;
+
+    /* content settings */
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-left: 80px;
+}
+
+.h-text{
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex:1;
+}
+.h-image{
+    display:flex;
+    margin-left: 50px;
+    flex:1;
+}
+.h-image img{
+    border-radius: 12px;
+    padding-top:30px;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+}
