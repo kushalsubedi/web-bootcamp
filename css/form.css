@@ -1,2 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;400;700&family=Poppins:wght@100;200;300;400&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg , rgba(217,9,9,0.734)28%,
+                                         rgba(26,65,191,0.98)89%);
+
+}
+.container{
+    max-width: 700px;
+    background:white;
+    padding:25px 30px;
+    border-radius: 5px;
+    display:inline;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position:relative;
+}
+
+.container form .user-details{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box{
+    margin:20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    display:block;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+.user-details .input-box input{
+    height:45px;
+    width:98%;
+    outline:none;
+    border-radius: 5px;
+    border : 1px solid #cccc;
+    padding-left: 15px;
+    font-size: 15px;
+}
+button{
+    background:linear-gradient(90deg ,rgba(26,65,191,0.98)29%,
+                                     rgba(217,9,9,0.734)89%);
+    height: 100%;
+    width:100%;
+    border:none;
+    border-radius: 6px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    color:whitesmoke;
+    cursor: pointer;
+    
+}
+button:hover{
+    background: #ffff;
+    color:crimson;
+}
+.line{
+    content: "";
+    border-radius: 5%;
+    background:linear-gradient(90deg , rgba(217,9,9,0.734)28%,
+    rgba(26,65,191,0.98)89%);
+
+    width:15%;
+    height:4px;
+
+
+}
+
+

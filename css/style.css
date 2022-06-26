@@ -84,3 +84,154 @@
     width: 400px;
     height: 400px;
 }
+#hero button{
+    padding:10px;
+    margin: 20px;
+}
+button {
+   background-color:rgba(113,176,188,0.947);
+   border-radius: 15px;
+   padding: 5px 5px 5px 5px; 
+   outline:none;
+   cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 700;
+    color:#ffff;
+    transition:0.3s ease;
+    
+}
+button:hover{
+    color:rgba(113,176,188,0.947);
+    background-color: crimson;
+    transition: 0.5s ease-in-out;
+
+}
+
+.csit{
+    color:rgba(113,176,188,0.947);
+    font-weight: 700;
+
+}
+.csit span{
+    color:crimson;
+    font-weight:700;
+}
+
+
+
+/*features*/
+
+#features{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+#features .fe-box{
+    width:180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.06);
+    border: 1px solid #1a1a1a;
+    border-radius: 25px;
+    margin-top: 15px ;
+    margin-bottom: 15px;
+
+}
+#features .fe-box h6{
+    padding:4px 5px;
+    line-height: 1;
+    border-radius: 5px;
+    color:#088178;
+    background-color: rgba(246,246,186,0.8);
+
+}
+.container-title{
+    text-align: center;
+    padding:40px;
+}
+
+
+/*photo container */
+.img-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.photo-column{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pic img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border-radius: 5px;
+}
+.pic img:hover{
+    transform: scale(1.1);
+}
+
+.footer {
+    padding: 40px 0;
+    background: rgb(198, 187, 187);
+    height: 33vh;
+}
+
+.footer .social {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color:#4b4c4d;
+
+}
+.footer .social a{
+    font-size: 25px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+  
+}
+.footer .social a:hover,
+.footer ul li:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding:0 15px;
+}
+
+.footer .copyright{
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 13px;
+    color: #4b4c4d;
+}
+li a{
+    text-decoration: none;
+    color:#4b4c4d;
+}
+
+
